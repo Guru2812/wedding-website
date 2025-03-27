@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-black text-gray-100 antialiased;
+  }
+  /* Example: Define a custom font if needed */
+  /* @font-face {
+    font-family: 'YourSerifFont';
+    src: url('/fonts/your-serif-font.woff2') format('woff2');
+  }
+  .font-serif {
+    font-family: 'YourSerifFont', serif;
+  } */
+}
